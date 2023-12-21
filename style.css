@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('pacote/fontes/idroid.otf') format(opentype);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: #E9E6C3;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    color: white;
+    background-color: #30AA67;
+    background: linear-gradient(to top, #1A5C38, #39CE7C);
+    padding: 1px 0px 4px 0px;
+    margin: 0px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+header > h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header > p{
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    padding: 10px;
+    margin: 5px 0px 30px 0px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #9BD8B4;
+    text-align: right;
+    padding: 5px;
+    margin: 20px;
+    
+}
+
+nav > a:hover{
+
+    color: #1A5C38;
+    background-color: #28975B;
+    border-radius: 4px;
+}
+
+main{
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: 0px auto 15px auto;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.322);
+}
+h1#tituloPrincipal{
+    font-family: 'android';
+    font-size: 2em;
+    color: #1C633B;
+}
+
+h2{
+    font-family: 'android';
+    background-color: #86E2AE;
+    background: linear-gradient(to right, #86E2AE, white);
+    color: #1C633B;
+    padding: 1px;
+}
+
+.destaque{
+    background-color: #86E2AE;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.imgDroid{
+    margin: auto;
+    display: block;
+}
+
+.video{
+    background-color:  #1C633B;
+    margin: 0px;
+    padding: 0px;
+}
+
+.video > iframe{
+    display: block;
+    margin: 0px auto;
+}
+
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+div > section{
+    background-color: #62AC82;
+    border-radius: 10px;
+}
+
+ul{
+    text-align: left;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+.extrap{
+    padding: 1px 10px 10px 10px;
+    text-align: justify;
+}
+
+section > h3{
+    color: white;
+    font-size: 30px;
+    background-color: #14512E;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
